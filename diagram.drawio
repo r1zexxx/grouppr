@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.8">
+  <diagram name="Сторінка-1" id="zfh2pEvzPSyS66u72fUB">
+    <mxGraphModel dx="2620" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_m6X4mqnOJkloHPReDSj-1" value="&#xa; Вибір дати та часу бронювання&#xa;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="550" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_m6X4mqnOJkloHPReDSj-2" value="&#xa;Форма бронювання з полями: ім&#39;я користувача, електронна пошта,&#xa;вибір кімнати/місця, дати початку та завершення бронювання&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="150" y="460" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="_m6X4mqnOJkloHPReDSj-3" value="&lt;br&gt;Панель адміністратора для перегляду, підтвердження, відміни&lt;br&gt;бронювань.&lt;br&gt;Можливість редагування та видалення бронювань.&lt;br&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp;Керування кімнатами/місцями&lt;br&gt;Додавання, редагування, видалення інформації про кімнати/місця.&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Встановлення цін, вмістимості, особливостей кімнат/місць.&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="124" y="730" width="290" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="_m6X4mqnOJkloHPReDSj-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.004;entryY=0.426;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_m6X4mqnOJkloHPReDSj-1" target="_m6X4mqnOJkloHPReDSj-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="780" as="sourcePoint" />
+            <mxPoint x="440" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_m6X4mqnOJkloHPReDSj-5" value="&#xa;Підтвердження бронювання через електронну пошту.&#xa;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="460" y="520" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_m6X4mqnOJkloHPReDSj-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.015;entryY=0.433;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.991;exitY=0.442;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_m6X4mqnOJkloHPReDSj-2" target="_m6X4mqnOJkloHPReDSj-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="570" as="sourcePoint" />
+            <mxPoint x="390" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_m6X4mqnOJkloHPReDSj-7" value="&lt;div&gt;&lt;p&gt;&lt;strong&gt;Room (Кімната/Місце)&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Поля:&lt;ul&gt;&lt;li&gt;&lt;code&gt;name&lt;/code&gt; (Назва кімнати)&lt;/li&gt;&lt;li&gt;&lt;code&gt;capacity&lt;/code&gt; (Вмістимість)&lt;/li&gt;&lt;li&gt;&lt;code&gt;price&lt;/code&gt; (Ціна)&lt;/li&gt;&lt;li&gt;&lt;code&gt;description&lt;/code&gt; (Опис)&lt;/li&gt;&lt;li&gt;&lt;code&gt;features&lt;/code&gt; (Особливості, наприклад, Wi-Fi, проектор)&lt;/li&gt;&lt;li&gt;&lt;code&gt;availability&lt;/code&gt; (Доступність, Boolean)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="270" width="300" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="_m6X4mqnOJkloHPReDSj-8" value="&lt;div&gt;&lt;p&gt;&lt;strong&gt;Booking (Бронювання)&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Поля:&lt;ul&gt;&lt;li&gt;&lt;code&gt;user&lt;/code&gt; (Зв&#39;язок із користувачем)&lt;/li&gt;&lt;li&gt;&lt;code&gt;room&lt;/code&gt; (Зв&#39;язок із кімнатою)&lt;/li&gt;&lt;li&gt;&lt;code&gt;start_date&lt;/code&gt; (Дата початку)&lt;/li&gt;&lt;li&gt;&lt;code&gt;end_date&lt;/code&gt; (Дата завершення)&lt;/li&gt;&lt;li&gt;&lt;code&gt;status&lt;/code&gt; (Статус: &quot;Очікує підтвердження&quot;, &quot;Підтверджено&quot;, &quot;Скасовано&quot;)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="180" width="300" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="_m6X4mqnOJkloHPReDSj-9" value="Юзер" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_m6X4mqnOJkloHPReDSj-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="_m6X4mqnOJkloHPReDSj-7" target="_m6X4mqnOJkloHPReDSj-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="950" as="sourcePoint" />
+            <mxPoint x="400" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_m6X4mqnOJkloHPReDSj-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="_m6X4mqnOJkloHPReDSj-9" target="_m6X4mqnOJkloHPReDSj-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="580" as="sourcePoint" />
+            <mxPoint x="180" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
