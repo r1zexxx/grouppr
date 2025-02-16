@@ -6,3 +6,13 @@ app_name = "main"
 urlpatterns = [
     path('', views.main)
 ]
+
+app_name = "booking"
+urlpatterns = [
+    path('', views.booking)
+]
+
+app_name = "rooms"
+urlpatterns = [
+    path('', views.rooms)
+]
