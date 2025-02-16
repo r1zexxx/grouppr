@@ -9,7 +9,7 @@ urlpatterns = [
 
 app_name = "booking"
 urlpatterns = [
-    path('', views.booking)
+    path('', views.bookin)
 ]
 
 app_name = "rooms"
